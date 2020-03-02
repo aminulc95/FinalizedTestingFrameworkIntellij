@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="59d1f965-ef8e-445b-9743-41a7fe804e74" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectPropertiesFile/objectmap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MasterExamplePagePackage/MasterExamplePageClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/Base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/ExcelReadWrite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/ExtentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/ExtentTestNGITestListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/ObjectMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Namesxls.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MasterDataProviderPackage/MasterDataProviderClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MasterExampleTestPackage/MasterExampleTestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Utils/ExtentManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Petition/MasterDataProviderExample.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Petition/MasterDataProviderClass.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MasterDataProviderPackage/MasterDataProviderClass.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Utils/Base.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Utils/Library.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MasterExampleTestPackage/MasterExampleTestClass.java" />
+        <option value="$PROJECT_DIR$/.idea/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="949" />
+    <option name="width" value="980" />
+    <option name="height" value="1091" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FinalizedTestingFrameworkIntellij" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalizedTestingFrameworkIntellij" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FinalizedTestingFrameworkIntellij" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalizedTestingFrameworkIntellij" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Aminul\IdeaProjects\FinalizedTestingFrameworkIntellij\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Petition" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Aminul\IdeaProjects\FinalizedTestingFrameworkIntellij\.idea" />
+      <recent name="C:\Users\Aminul\IdeaProjects\FinalizedTestingFrameworkIntellij" />
+      <recent name="C:\Users\Aminul\IdeaProjects\FinalizedTestingFrameworkIntellij\src\main\java\Utils" />
+      <recent name="C:\Users\Aminul\IdeaProjects\FinalizedTestingFrameworkIntellij\src\main\resources" />
+      <recent name="C:\Users\Aminul\IdeaProjects\FinalizedTestingFrameworkIntellij\src\main\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/Aminul/IdeaProjects/FinalizedTestingFrameworkIntellij/testng.xml">
+    <configuration name="C:/Users/Aminul/IdeaProjects/FinalizedTestingFrameworkIntellij/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FinalizedTestingFrameworkIntellij" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MasterDataProviderClass.RunTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FinalizedTestingFrameworkIntellij" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MasterDataProviderPackage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Petition" />
+      <option name="MAIN_CLASS_NAME" value="MasterDataProviderPackage.MasterDataProviderClass" />
+      <option name="METHOD_NAME" value="RunTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/Aminul/IdeaProjects/FinalizedTestingFrameworkIntellij/testng.xml" />
+        <item itemvalue="TestNG.MasterDataProviderClass.RunTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59d1f965-ef8e-445b-9743-41a7fe804e74" name="Default Changelist" comment="" />
+      <created>1583105336464</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583105336464</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="MasterDataProviderExample_RunTest - 2020.03.01 at 16h 45m 31s.xml">
+      <configuration name="MasterDataProviderExample.RunTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MasterDataProviderExample_RunTest - 2020.03.01 at 16h 46m 16s.xml">
+      <configuration name="MasterDataProviderExample.RunTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MasterDataProviderExample_RunTest - 2020.03.01 at 16h 46m 32s.xml">
+      <configuration name="MasterDataProviderExample.RunTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MasterDataProviderExample_RunTest - 2020.03.01 at 16h 47m 35s.xml">
+      <configuration name="MasterDataProviderExample.RunTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Aminul_IdeaProjects_FinalizedTestingFrameworkIntellij_testng_xml - 2020.03.01 at 16h 52m 45s.xml">
+      <configuration name="C:/Users/Aminul/IdeaProjects/FinalizedTestingFrameworkIntellij/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Aminul_IdeaProjects_FinalizedTestingFrameworkIntellij_testng_xml - 2020.03.01 at 16h 54m 20s.xml">
+      <configuration name="C:/Users/Aminul/IdeaProjects/FinalizedTestingFrameworkIntellij/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Aminul_IdeaProjects_FinalizedTestingFrameworkIntellij_testng_xml - 2020.03.01 at 17h 01m 10s.xml">
+      <configuration name="C:/Users/Aminul/IdeaProjects/FinalizedTestingFrameworkIntellij/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Aminul_IdeaProjects_FinalizedTestingFrameworkIntellij_testng_xml - 2020.03.01 at 17h 02m 08s.xml">
+      <configuration name="C:/Users/Aminul/IdeaProjects/FinalizedTestingFrameworkIntellij/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Aminul_IdeaProjects_FinalizedTestingFrameworkIntellij_testng_xml - 2020.03.01 at 17h 04m 23s.xml">
+      <configuration name="C:/Users/Aminul/IdeaProjects/FinalizedTestingFrameworkIntellij/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Aminul_IdeaProjects_FinalizedTestingFrameworkIntellij_testng_xml - 2020.03.01 at 17h 10m 59s.xml">
+      <configuration name="C:/Users/Aminul/IdeaProjects/FinalizedTestingFrameworkIntellij/testng.xml" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24696356" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.3283582" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.54892206" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/ObjectMap.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/ExcelReadWrite.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/ExtentManager.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ObjectPropertiesFile/objectmap.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MasterExamplePagePackage/MasterExamplePageClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MasterDataProviderPackage/MasterDataProviderClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/extent/reports/ExtentReport.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/Library.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="104" column="31" selection-start-line="104" selection-start-column="31" selection-end-line="104" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/ExtentTestNGITestListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="52" column="27" lean-forward="true" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MasterExampleTestPackage/MasterExampleTestClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>FinalizedTestingFrameworkIntellij</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

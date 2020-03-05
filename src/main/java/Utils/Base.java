@@ -11,11 +11,11 @@ public class Base {
 	public static Library myLib;
 	public static ObjectMap objmap;
 	public static String workingDir = System.getProperty("user.dir");
-	public static ObjectMap map = new ObjectMap(workingDir + "\\objectpropertiesfile\\objectmap.properties");
-	
+
 	@BeforeMethod
 	public void beforeEachTest() {
-		myLib = new Library(driver);	
+		myLib = new Library(driver);
+		objmap = new ObjectMap(workingDir + "\\objectpropertiesfile\\objectmap.properties");
 		driver = myLib.startChromeBrowser();
 		//driver = myLib.startHeadlessChromeBrowser();
 		//driver = myLib.startFirefoxBrowser();

@@ -1,4 +1,7 @@
 package MasterExamplePagePackage;
 
-public class MasterExamplePageClass {
+import Utils.Base;
+
+public class MasterExamplePageClass extends Base {
+
 }

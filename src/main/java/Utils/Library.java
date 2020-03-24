@@ -10,13 +10,11 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.io.File;
 import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
-
 import static org.testng.Assert.assertTrue;
 
 public class Library {
@@ -110,37 +108,42 @@ public class Library {
 		}
 	}
 	//------------------------------------------------------------------------------------------------
-	public void enterTextField(By by, String userInputString) {
+	public void enterTextField(String objElemName, String userInputString) throws Exception {
+		String method = getCurrentStepName();
+		By by = objmap.getLocator(objElemName);
 		try {
+			waitUntilVisibleElement(by);
 			WebElement element = driver.findElement(by);
+			element.clear();
 			element.sendKeys(userInputString);
 		} catch (Exception e) {
 			logger.error("Error: ", e);
-			assertTrue(false);
-			//System.out.println("Error: " + e.getStackTrace());
+			assert false : "unable to complete: " + method;
 		}
 	}
 	//------------------------------------------------------------------------------------------------
-	public void clickButton(By by) {
+	public void clickButton(String objElemName) throws Exception {
+		String method = getCurrentStepName();
+		By by = objmap.getLocator(objElemName);
 		try {
+			waitUntilVisibleElement(by);
 			WebElement button = driver.findElement(by);
 			button.click();
 		} catch (Exception e) {
 			logger.error("Error: ", e);
-			assertTrue(false);
-			//System.out.println("Error: " + e.getStackTrace());
+			assert false : "unable to complete: " + method;
 		}
 	}
 	//------------------------------------------------------------------------------------------------
 	public WebDriver waitUntilVisibleElement(By by) {
+		String method = getCurrentStepName();
 		try {
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(by));
 		return driver;
 		} catch (Exception e) {
 			logger.error("Error: ", e);
-			assertTrue(false);
-			//System.out.println("Error: " + e.getStackTrace());
+			assert false : "unable to complete: " + method;
 		}
 		return driver;
 	}
@@ -160,17 +163,37 @@ public class Library {
 		return driver;
 	}
 	//------------------------------------------------------------------------------------------------
-	public WebDriver selectFromDropdown(WebElement by, String index) {
-		try {
-		Select counrty = new Select(by);
-		counrty.selectByValue(index);
-		return driver;
-		} catch (Exception e) {
-			logger.error("Error: ", e);
-			assertTrue(false);
-			//System.out.println("Error: " + e.getStackTrace());
+	public void selectFromDropdown(String objElemName, String selectBy, String valueToSelect) throws Exception {
+		String method = getCurrentStepName();
+		By by = objmap.getLocator(objElemName);
+		if (selectBy.equalsIgnoreCase("index")) {
+			waitUntilVisibleElement(by);
+			try {
+				Select select = new Select(driver.findElement(by));
+				select.selectByIndex(Integer.parseInt(valueToSelect));
+			} catch (Exception e) {
+				logger.error("Error: ", e);
+				assert false : "unable to complete: " + method;
+			}
+		} else if (selectBy.equalsIgnoreCase("value")) {
+			waitUntilVisibleElement(by);
+			try {
+				Select select = new Select(driver.findElement(by));
+				select.selectByValue(valueToSelect);
+			} catch (Exception e) {
+				logger.error("Error: ", e);
+				assert false : "unable to complete: " + method;
+			}
+		} else if (selectBy.replace(" ", "").equalsIgnoreCase("visibletext")) {
+			waitUntilVisibleElement(by);
+			try {
+				Select select = new Select(driver.findElement(by));
+				select.selectByValue(valueToSelect);
+			} catch (Exception e) {
+				logger.error("Error: ", e);
+				assert false : "unable to complete: " + method;
+			}
 		}
-		return driver;
 	}
 	//------------------------------------------------------------------------------------------------
 	public String getCurrentTime() {
@@ -181,8 +204,8 @@ public class Library {
 			currentTime = tempDate.replace(" ", "_").replace(":", "_").replace(".", "_").replace("-", "_");
 			// System.out.println("date string: '" +currentTime +"'");
 		} catch (Exception e) {
-			logger.error("Error: ", e);	
-			assertTrue(false);			
+			logger.error("Error: ", e);
+			assertTrue(false);
 		}
 		return currentTime;
 	}
@@ -216,8 +239,8 @@ public class Library {
 			File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 			Files.copy(srcFile, new File(screenshotPath));
 		} catch (Exception e) {
-			logger.error("Error: ", e);	
-			assertTrue(false);			
+			logger.error("Error: ", e);
+			assertTrue(false);
 		}
 		System.out.println("Screenshot Captured: " + screenshotPath);
 		return screenshotPath;
@@ -227,8 +250,8 @@ public class Library {
 		try {
 			Thread.sleep((long) (inSeconds * 1000));
 		} catch (Exception e) {
-			logger.error("Error: ", e);	
-			assertTrue(false);			
+			logger.error("Error: ", e);
+			assertTrue(false);
 		}
 	}
 	//------------------------------------------------------------------------------------------------
@@ -254,5 +277,9 @@ public class Library {
 		System.out.println("Screenshot Captured: " + screenshotPath);
 		return screenshotPath;
 	}
-
+	//------------------------------------------------------------------------------------------------
+	public String getCurrentStepName(){
+		String MetodName = Thread.currentThread().getStackTrace()[2].getMethodName();
+		return MetodName;
+	}
 }

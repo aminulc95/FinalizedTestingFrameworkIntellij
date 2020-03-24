@@ -1,4 +1,4 @@
 # FinalizedTestingFrameworkIntellij
 FinalizedTestingFrameworkIntellij
 
-Repo created to tack a mock testing framework
+Repo created to track a mock testing framework

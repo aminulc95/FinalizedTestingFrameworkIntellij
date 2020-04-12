@@ -1,4 +1,5 @@
 /.idea/*
+/.idea/workspace.xml
 /.idea/workspace*
 /.idea/vcs*
 /target/maven-status/maven-compiler-plugin/compile/default-compile/*.lst
